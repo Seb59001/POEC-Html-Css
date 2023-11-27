@@ -1,29 +1,54 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <!-- Commentaire html -->
-    <!-- Liste non ordonnée-->
-    <ul>
-        <li>Chat</li>
-        <li>Chien</li>
-        <li>Lapin</li>
-    </ul>
-    <!-- Liste ordonnée-->
-    <ol>
-        <li>Kiwi</li>
-        <li>Céréales</li>
-        <li>Beurre</li>
-        <li>Yahourts</li>
-        <li>Banane</li>
-    </ol>
+    <head>
+        <title>Titre d'onglet</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="page sur les chats">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <!-- Commentaire html -->
+        <h1 id="anchor">Mon titre</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure, ea a ducimus consequuntur iusto quis harum tempora esse ab dolore porro iste, assumenda minus consectetur dolores, numquam natus impedit quibusdam!<br>
+        Id qui quae corrupti nemo! Velit, alias? Eveniet, eum libero iusto ipsam ducimus rerum ad accusantium nesciunt provident, nihil molestiae! Tempora quia rem possimus totam cupiditate provident ipsam, corporis adipisci!</p>
 
-    <img src="" alt="">
+        <h3>mon titre</h3>
+        <p>Lorem ipsum dolor sit amet.</p>
 
-    <hr>
-</body>
+        <ul><!-- Liste non ordonnée -->
+            <li>Chat</li>
+            <li>Chien</li>
+            <li>Lapin</li>
+        </ul>
+
+        <ol><!-- Liste ordonnée -->
+            <li>Kiwi</li>
+            <li>Céréales</li>
+            <li>Beurre</li>
+            <li>Farine</li>
+            <li>Sel</li>
+        </ol>
+        <!-- Image avec lien absolu-->
+        <img src="https://cdn.pixabay.com/photo/2014/11/30/14/11/cat-551554_960_720.jpg" alt="Image d'un chat blanc aux yeux bleu">
+
+        <!-- Image avec lien relatif-->
+        <img src="./img/chat-blanc.jpg" alt="Image d'un chat blanc aux yeux bleu">
+
+        <!-- Balise sémantique de text -->
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id eos eum non odit dolorum ipsa, doloribus inventore distinctio et! Quia, incidunt cumque voluptatibus quidem nisi saepe amet voluptates eligendi impedit. <em>Accuentuation du texte</em>
+        Amet totam omnis rem cum quos necessitatibus <strong>dolorem sapiente</strong>tempora libero, facere quibusdam vero. Laboriosam enim culpa, ratione magni ex veniam beatae, sed delectus quia sapiente, <mark>Texte pertinent dans son contexte </mark> officiis sit veritatis dolores?</p>
+
+
+        <!-- Balise a pour faire un lien -->
+            <!-- Lien absolu-->
+        <a href="https://fr.wikipedia.org/wiki/Chat">Page Wikipedia des chats</a>
+            <!-- Lien relatif -->
+        <a href="contact.html">Lien vers ma page de contact</a>
+            <!-- Ancre -->
+        <a href="#anchor">Ancre qui redirige vers l'élément ayant l'id anchor</a>
+
+
+        <hr>
+    </body>
 </html>
+
