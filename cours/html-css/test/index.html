@@ -1,54 +1,122 @@
 <!DOCTYPE html>
 <html lang="fr">
-    <head>
-        <title>Titre d'onglet</title>
-        <meta charset="UTF-8">
-        <meta name="description" content="page sur les chats">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    </head>
-    <body>
-        <!-- Commentaire html -->
-        <h1 id="anchor">Mon titre</h1>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure, ea a ducimus consequuntur iusto quis harum tempora esse ab dolore porro iste, assumenda minus consectetur dolores, numquam natus impedit quibusdam!<br>
-        Id qui quae corrupti nemo! Velit, alias? Eveniet, eum libero iusto ipsam ducimus rerum ad accusantium nesciunt provident, nihil molestiae! Tempora quia rem possimus totam cupiditate provident ipsam, corporis adipisci!</p>
 
-        <h3>mon titre</h3>
-        <p>Lorem ipsum dolor sit amet.</p>
+<head>
+    <title>Titre d'onglet</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="page sur les chats">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
 
-        <ul><!-- Liste non ordonnée -->
-            <li>Chat</li>
-            <li>Chien</li>
-            <li>Lapin</li>
-        </ul>
+<body>
+    <!-- Commentaire html -->
+    <h1 id="anchor">Mon titre</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure, ea a ducimus consequuntur iusto quis harum
+        tempora esse ab dolore porro iste, assumenda minus consectetur dolores, numquam natus impedit quibusdam!<br>
+        Id qui quae corrupti nemo! Velit, alias? Eveniet, eum libero iusto ipsam ducimus rerum ad accusantium nesciunt
+        provident, nihil molestiae! Tempora quia rem possimus totam cupiditate provident ipsam, corporis adipisci!</p>
 
-        <ol><!-- Liste ordonnée -->
-            <li>Kiwi</li>
-            <li>Céréales</li>
-            <li>Beurre</li>
-            <li>Farine</li>
-            <li>Sel</li>
-        </ol>
-        <!-- Image avec lien absolu-->
-        <img src="https://cdn.pixabay.com/photo/2014/11/30/14/11/cat-551554_960_720.jpg" alt="Image d'un chat blanc aux yeux bleu">
+    <h3>mon titre</h3>
+    <p>Lorem ipsum dolor sit amet.</p>
 
-        <!-- Image avec lien relatif-->
-        <img src="./img/chat-blanc.jpg" alt="Image d'un chat blanc aux yeux bleu">
+    <ul><!-- Liste non ordonnée -->
+        <li>Chat</li>
+        <li>Chien</li>
+        <li>Lapin</li>
+    </ul>
 
-        <!-- Balise sémantique de text -->
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id eos eum non odit dolorum ipsa, doloribus inventore distinctio et! Quia, incidunt cumque voluptatibus quidem nisi saepe amet voluptates eligendi impedit. <em>Accuentuation du texte</em>
-        Amet totam omnis rem cum quos necessitatibus <strong>dolorem sapiente</strong>tempora libero, facere quibusdam vero. Laboriosam enim culpa, ratione magni ex veniam beatae, sed delectus quia sapiente, <mark>Texte pertinent dans son contexte </mark> officiis sit veritatis dolores?</p>
+    <ol><!-- Liste ordonnée -->
+        <li>Kiwi</li>
+        <li>Céréales</li>
+        <li>Beurre</li>
+        <li>Farine</li>
+        <li>Sel</li>
+    </ol>
+    <!-- Image avec lien absolu-->
+    <img src="https://cdn.pixabay.com/photo/2014/11/30/14/11/cat-551554_960_720.jpg"
+        alt="Image d'un chat blanc aux yeux bleu">
+
+    <!-- Image avec lien relatif-->
+    <img src="./img/chat-blanc.jpg" alt="Image d'un chat blanc aux yeux bleu">
+
+    <!-- Balise sémantique de text -->
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id eos eum non odit dolorum ipsa, doloribus inventore
+        distinctio et! Quia, incidunt cumque voluptatibus quidem nisi saepe amet voluptates eligendi impedit.
+        <em>Accuentuation du texte</em>
+        Amet totam omnis rem cum quos necessitatibus <strong>dolorem sapiente</strong>tempora libero, facere quibusdam
+        vero. Laboriosam enim culpa, ratione magni ex veniam beatae, sed delectus quia sapiente, <mark>Texte pertinent
+            dans son contexte </mark> officiis sit veritatis dolores?
+    </p>
 
 
-        <!-- Balise a pour faire un lien -->
-            <!-- Lien absolu-->
-        <a href="https://fr.wikipedia.org/wiki/Chat">Page Wikipedia des chats</a>
-            <!-- Lien relatif -->
-        <a href="contact.html">Lien vers ma page de contact</a>
-            <!-- Ancre -->
-        <a href="#anchor">Ancre qui redirige vers l'élément ayant l'id anchor</a>
+    <!-- Balise a pour faire un lien -->
+    <!-- Lien absolu-->
+    <a href="https://fr.wikipedia.org/wiki/Chat">Page Wikipedia des chats</a>
+    <!-- Lien relatif -->
+    <a href="contact.html">Lien vers ma page de contact</a>
+    <!-- Ancre -->
+    <a href="#anchor">Ancre qui redirige vers l'élément ayant l'id anchor</a>
 
+    <hr>
 
-        <hr>
-    </body>
+    <!-- Tableau -->
+
+    <table border="1">
+        <thead>
+            <tr><!--Ligne-->
+                <th>En tête</th><!--Cellule-->
+                <th colspan="2">En tête</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Cellule</td>
+                <td>Cellule</td>
+                <td>Cellule</td>
+            </tr>
+            <tr>
+                <td align="right">Cellule</td>
+                <td rowspan="2">Cellule</td>
+                <td width="200px">Cellule</td>
+            </tr>
+            <tr>
+                <td>Cellule</td>
+                <td>Cellule</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <form action="cible.php" method="GET">
+        <div>
+            <label for="firstname">Prénom</label>
+            <input type="text" name="firstname-user" id="firstname">
+        </div>
+        <div>
+            <label for="email">Votre adresse mail</label>
+            <input type="email" name="email-user" id="email">
+        </div>
+        <div>
+            <label for="date">Date de naissance</label>
+            <input type="date" name="date-user" id="date">
+        </div>
+        <div>
+            <label for="animals">Quel est votre animal préféré ?</label>
+            <select name="animals" id="animals">
+                <option value="cat">Chat</option>
+                <option value="cat">Chat</option>
+                <option value="cat">Chat</option>
+                <option value="cat">Chat</option>
+            </select>
+        </div>
+        <div>
+            <label for="message">Votre message :</label>
+            <textarea name="message" id="message" cols="30" rows="10"></textarea>
+        </div>
+        <div>
+            <input type="submit" value="Valider">
+        </div>
+    </form>
+
+</body>
+
 </html>
-
