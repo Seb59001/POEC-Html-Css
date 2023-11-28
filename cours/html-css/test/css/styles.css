@@ -1,7 +1,70 @@
-h1 {
-    color:brown
+
+
+/* Sélecteur CSS */
+
+#mon-id{
+    color:rgb(11, 41, 139);
 }
 
-* {
-    
+.ma-class{
+    color: #1a7a7a;
+}
+
+h1{
+    color:rgb(139, 11, 11);
+}
+
+*{
+    padding: 0;
+}
+
+a[href="https://fr.wikipedia.org/wiki/Chat#Anatomie"]{
+    color: #1a7a7a;
+}
+
+.section-style p{
+    color: #1a7a7a;
+}
+
+.section-style>p{
+    color: #1a247a;
+}
+
+h1 + a{
+    text-decoration: none;
+}
+
+/* Propriétés CSS */
+
+.ma-class{
+    color: #1f654e;
+    font-family: 'Courier New', Courier, monospace, sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bolder;
+    text-decoration: underline;
+    text-align: center;
+
+}
+
+a[href="https://fr.wikipedia.org/wiki/Chat#Anatomie"]{
+    text-decoration: none;
+}
+
+body{
+    background-color: rgba(240, 248, 255, 0.8);
+}
+
+.section-style{
+    border: 1px solid #000;
+    border-radius: 10px 10px 31px 34px;
+    margin-left: 20px;
+    padding: 20px 30px 15px;
+    box-shadow: 0px -1px 19px 8px rgba(0,0,0,0.36);
+}
+
+
+img[src="img/chat-blanc.jpg"]{
+    width: 400px;
+    height: 300px;
 }
