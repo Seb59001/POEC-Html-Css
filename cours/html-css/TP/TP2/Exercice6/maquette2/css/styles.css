@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+.contact-card {
+    width: 300px;
+    margin: auto;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #578957;
+    color: black;
+}
+
+h2{
+    display: inline;
+}
+
+.form-group, .form-radio-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: black;
+}
+
+.form-radio-group label {
+    display: inline;
+    margin-bottom: 5px;
+    color: black;
+}
+
+.form-group button {
+    background-color: lightgrey;
+    color: #578957;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 150px;
+}
+
+.icon {
+    margin-right: 5px;
+}
+
