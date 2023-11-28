@@ -57,6 +57,10 @@
         </ul>
     </section>
 
+    <!-- Remplacer les balises <strong> par des balises <span>
+         Mettre des tirets dans les noms d'image
+    -->
+
     <section>
         <h3>Opel Astra de 2021</h3>
         <p id="opel-astra-2021">
@@ -129,8 +133,30 @@
             <strong>Type:</strong> (à compléter)<br>
             <img src="./img/mercedes classse A.jpg" alt="Mercedes Classe A">
         </p>
+    </section>
 
-
+    <section>
+        <form action="#" method="GET">
+            <div>
+                <label for="firstname">Prénom</label>
+                <input type="text" name="firstname-user" id="firstname">
+            </div>
+            <div>
+                <label for="email">Votre adresse mail</label>
+                <input type="email" name="email-user" id="email">
+            </div>
+            <div>
+                <label for="date">Date de naissance</label>
+                <input type="date" name="date-user" id="date">
+            </div>
+            <div>
+                <label for="message">Votre message :</label>
+                <textarea name="message" id="message" cols="30" rows="10"></textarea>
+            </div>
+            <div>
+                <input type="submit" value="Valider">
+            </div>
+        </form>
     </section>
 
 
