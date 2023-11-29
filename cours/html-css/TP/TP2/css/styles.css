@@ -1,0 +1,304 @@
+@media screen and (min-width: 250px) and (max-width: 767px) {
+
+    /*Styles commun aux 2 pages*/
+    .container_box {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin: auto;
+    }
+
+    /*Page Liste de contact*/
+    /*Titre principal de la page*/
+    .container_main h1 {
+        text-align: center;
+    }
+
+    /*Boîtes des listes de fond vert*/
+    .box_green {
+        background-color: #578957;
+    }
+
+    /*Boîtes des liste de fond jaune*/
+    .box_yellow {
+        background-color: #c7b878;
+    }
+
+    /*Ensemble des boîtes de liste*/
+    .box_green,
+    .box_yellow {
+        border: 2px solid black;
+        text-align: left;
+        margin: 2px;
+        padding: 5px;
+    }
+
+    /* Contenus des boîtes */
+    /*Titres*/
+    .box_green h2,
+    .box_yellow h2 {
+        text-align: center;
+        text-transform: uppercase;
+        text-decoration: underline overline;
+    }
+
+    /*Listes*/
+    .box_green ol,
+    .box_yellow ol {
+        max-width: 80px;
+        margin: auto;
+        padding-left: 20px;
+    }
+}
+
+
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+    /*Styles commun aux 2 pages*/
+    .container_box {
+        display: flex;
+        justify-content: center;
+        width: 80%;
+        margin: auto;
+        flex-wrap: wrap;
+    }
+
+    /*Page Liste de contact*/
+    /*Titre principal de la page*/
+    .container_main h1 {
+        text-align: center;
+    }
+
+    /*Boîtes des listes de fond vert*/
+    .box_green {
+        background-color: #578957;
+    }
+
+    /*Boîtes des liste de fond jaune*/
+    .box_yellow {
+        background-color: #c7b878;
+    }
+
+    /*Ensemble des boîtes de liste*/
+    .box_green,
+    .box_yellow {
+        border: 2px solid black;
+        text-align: left;
+        margin: 2px;
+        padding: 5px;
+        width: 40%;
+    }
+
+    /* Contenus des boîtes */
+    /*Titres*/
+    .box_green h2,
+    .box_yellow h2 {
+        text-align: center;
+        text-transform: uppercase;
+        text-decoration: underline overline;
+    }
+
+    /*Listes*/
+    .box_green ol,
+    .box_yellow ol {
+        max-width: 80px;
+        margin: auto;
+        padding-left: 20px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+
+    /*Styles commun aux 2 pages*/
+    .container_box {
+        display: flex;
+        justify-content: center;
+        width: 80%;
+        margin: auto;
+        flex-wrap: wrap;
+    }
+
+    /*Page Liste de contact*/
+    /*Titre principal de la page*/
+    .container_main h1 {
+        text-align: center;
+    }
+
+    /*Boîtes des listes de fond vert*/
+    .box_green {
+        background-color: #578957;
+    }
+
+    /*Boîtes des liste de fond jaune*/
+    .box_yellow {
+        background-color: #c7b878;
+    }
+
+    /*Ensemble des boîtes de liste*/
+    .box_green,
+    .box_yellow {
+        border: 2px solid black;
+        text-align: left;
+        margin: 2px;
+        padding: 5px;
+        width: 45%;
+    }
+
+    /* Contenus des boîtes */
+    /*Titres*/
+    .box_green h2,
+    .box_yellow h2 {
+        text-align: center;
+        text-transform: uppercase;
+        text-decoration: underline overline;
+    }
+
+    /*Listes*/
+    .box_green ol,
+    .box_yellow ol {
+        max-width: 80px;
+        margin: auto;
+        padding-left: 20px;
+    }
+}
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 360px) and (max-width: 767px) {
+        /*Page création d'un contact*/
+    /*formulaire*/
+    .container_main>form {
+        width: 60%;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+        background-color: #578957;
+        padding: 20px;
+        font-size: 1.5rem;
+    }
+
+    /*Icônes des labels*/
+    .container_main>form>div i {
+        margin: 0 10px;
+    }
+
+    /*Labels et inputs prénom et nom*/
+    .container_main>form>.id_contact>label,
+    .container_main>form>.id_contact>input {
+        font-size: 1.5rem;
+        width: 95%;
+
+    }
+
+    .container_main>form>div>label {
+        margin-top: 30px;
+    }
+
+    /*Champs texte*/
+    .container_main>form>.id_contact>input {
+        margin: 10px;
+        border-radius: 5px;
+        border: solid 2px grey;
+        padding: 5px;
+    }
+
+    /*Champs à choix*/
+    .container_main>form>.choice_service>input {
+        width: 20px;
+        height: 20px;
+    }
+
+    .choice_service {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    /*Bouton envoyer*/
+    .container_main>form>div>input[type="submit"] {
+        width: 200px;
+        padding: 5px;
+        margin-top: 30px;
+        color: #406040;
+        font-size: 1.25rem;
+        cursor: pointer;
+    }
+
+    .submit_btn {
+        align-self: center;
+    }
+}
+
+
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+    /*Page création d'un contact*/
+    /*formulaire*/
+    .container_main>form {
+        width: 52%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #578957;
+        padding: 20px;
+        font-size: 1.5rem;
+    }
+
+    /*Icônes des labels*/
+    .container_main>form>div i {
+        margin: 0 10px;
+    }
+
+    /*Labels et inputs prénom et nom*/
+    .container_main>form>.id_contact>label,
+    .container_main>form>.id_contact>input {
+        display: block;
+        font-size: 1.5rem;
+    }
+
+    .container_main>form>div>label {
+        margin-top: 30px;
+    }
+
+    /*Champs texte*/
+    .container_main>form>.id_contact>input {
+        margin: 10px;
+        border-radius: 5px;
+        border: solid 2px grey;
+        padding: 5px;
+    }
+
+    /*Champs à choix*/
+    .container_main>form>.choice_service>input {
+        width: 20px;
+        height: 20px;
+    }
+
+    /*Bouton envoyer*/
+    .container_main>form>div>input[type="submit"] {
+        width: 200px;
+        padding: 5px;
+        margin-top: 30px;
+        color: #406040;
+        font-size: 1.25rem;
+        cursor: pointer;
+    }
+
+    .submit_btn {
+        align-self: center;
+    }
+
+}
